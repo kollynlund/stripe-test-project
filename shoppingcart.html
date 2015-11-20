@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Stripe</title>
+	<title>Roso Art</title>
 	<link href="sass/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -26,82 +28,64 @@
 			<div class="clearfix"></div>
 	</header>
 
-<div class="jumbotron">
-  <h1>Custom handmade Jewelry</h1>
-  <h2>Made here in Provo, Utah</h2>
-<!--   <h2><button type="button" class="btn btn-primary btn-lg">Learn About Our Vision</button></h2> -->
-</div>
 
-<div class="wrapper">
-
-	<div class="col-sm-12 product-container">
-		
-	</div>
-
+<div class="wrapper" id="shopping-cart">
 	<div class="row">
-
-
-     <div class="col-sm-4 product-container">
-			<div class="product-header">
-				<a href="img/aaron-1.png"><img class="thumb-img" src="img/aaron-1.png" alt="Crazy Pic By Aaron Brimhall"></a>
-			</div>
-
-			<div class="product-main">
-				<div class="product-info">
-					<div class="top-line">
-						<p class="artist-name">Braclet</p>
-						<div class="price">$99.<sup>99</sup></div>
-						<div class="clearfix"></div>
-					</div>
-
-					<p class="description">A sterling silver braclet.</p>			
-
-					<a href="product.html"><button class="btn" id="btn-add-to-cart-mobile">View</button></a>
-	
-				</div>
-			</div>
+		<div class="col-sm-12">
+			<h3>Shopping Cart</h3>
 		</div>
-
-
-     <div class="col-sm-4 product-container">
-			<div class="product-header">
-				<a href="img/aaron-2.png"><img class="thumb-img" src="img/aaron-2.png" alt="Crazy Pic By Aaron Brimhall"></a>
-			</div>
-
-			<div class="product-main">
-				<div class="product-info">
-					<p class="artist-name">Earrings</p><span class="price">$99.<sup>99</sup></span>
-					<p class="description">A cute pair of earrings. </p>
-					
-					<a href="product.html"><button class="btn" id="btn-add-to-cart-mobile">View</button></a>
-
-				</div>
-			</div>
-		</div>
-
-
-
-
-     <div class="col-sm-4 product-container">
-			<div class="product-header">
-				<a href="img/aaron-3.png"><img class="thumb-img" src="img/aaron-3.png" alt="Crazy Pic By Aaron Brimhall"></a>
-			</div>
-
-			<div class="product-main">
-				<div class="product-info">
-					<p class="artist-name">Ring</p><span class="price">$99.<sup>99</sup></span>
-					<p class="description">A cute ring. </p>
-					
-					<a href="product.html"><button class="btn" id="btn-add-to-cart-mobile">View</button></a>
-
-				</div>
-			</div>
-		</div>
-
-
-
-
 	</div>
+	<div class="row">
+		<div class="col-sm-2">
+			<img class="product-image" src="img/aaron-1.png" alt="Crazy Pic By Aaron Brimhall">
+		</div>
+		<div class="col-sm-4">
+			<h3>Handmade Braclet</h3>
+		</div>
+		<div class="col-sm-2">
+			<h4>Price:</h4>
+			<p>$99.<sup>99</sup></p>
+  	</div>
+		<div class="col-sm-2">
+			<h4>Quantity:</h4>
+			<select>
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			  <option value="4">4</option>
+			  <option value="5">5</option>
+			  <option value="6">6</option>
+			  <option value="0">0</option>
+			</select>
+  	</div>
+		<div class="col-sm-1">
+			<h4>Total:</h4>
+			<p>$99.<sup>99</sup></p>
+  	</div>  
+
+  </div>
+  <div class="row">
+  	<div class="col-sm-2 col-sm-offset-8">
+  		<h3>Subtotal:</h3>
+  		<hr>
+  		<a href="gallery.html"><p>Continue Shopping</a>
+  	</div>
+  	<div class="col-sm-2">
+  		<h3>$199.99</h3>
+  		<p>Excluding Shipping</p>
+  		<a href="gallery.html"><button class="btn" id="btn-add-to-cart-mobile">Checkout</button></a>
+  		<a href="gallery.html"><button class="btn">Paypal Btn</button></a>
+  	</div>
+  		
+  		
+  		
+  	</div>
+
+  </div>
+
+
+
+
 
 </div>
 

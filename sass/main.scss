@@ -2,6 +2,7 @@
 @import "footer";
 @import "contact";
 @import "product";
+@import "shopping-cart";
 
 .clearfix:after { 
    content: "."; 
@@ -162,10 +163,7 @@ footer {
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
-
-
-    
+    user-select: none; 
     
 }
 
